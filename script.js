@@ -34,11 +34,3 @@ async function downloadImages(imageUrls) {
     }
 }
 
-// Example usage
-const imageUrls = [
-    "https://via.placeholder.com/150",
-    "https://via.placeholder.com/200",
-    "https://invalid-url.com/invalid.jpg" // Invalid URL to test error handling
-];
-
-downloadImages(imageUrls);
